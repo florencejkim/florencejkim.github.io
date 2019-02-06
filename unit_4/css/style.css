@@ -3,6 +3,7 @@
 
 body {	
 	background-image: url ("volunteering_banner.png");
+	background: cover;
 	text-align: left;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
