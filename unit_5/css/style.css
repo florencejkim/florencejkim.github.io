@@ -1,0 +1,96 @@
+@import url("'https://fonts.googleapis.com/css?family=Roboto");
+* { margin: 0;  box-sizing: border-box;}
+
+body {	
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+header {
+		color: white;
+		background-color: #FFED74;
+		padding-bottom: 20px;
+		border: 1px black solid;
+}
+.sidebar {
+	padding:2em 2em 1em;
+	width:300px; 
+	background-color: #E8C66A;
+	border: 1px black solid;
+    padding: 20px;	
+}
+.sidebar  img{
+	padding-right: 20px;
+}
+div {
+	display: block;
+}
+.navlinks{
+	color: black;
+	letter-spacing: 1px;
+	padding: 1.5em;
+	border: none;
+	display: block;
+	margin: 0;
+}
+main {
+	float:right;
+}
+section img {
+	 border-radius: 50%;
+}
+section { 
+	background-color: #FFE2B8;
+	width: 800px;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+}
+
+section img {
+	padding-right : 0.4em;
+}
+
+h2, h3, h4 {
+	font-weight: normal;
+	color: #007F7C;	
+}
+h1{
+	font-size: 5em;
+	font-weight: normal;
+	color: black;
+	padding-left: 0.5em;
+	vertical-align: center;
+}
+h1 img {
+	padding-top: 25px;
+	padding-right: 85px;
+
+}
+h2{
+	font-size: 2em;
+	}
+h3{
+	font-size: 1.5em;	
+}
+h4 {
+	font-size: 1.2em;	
+}
+a{
+	text-decoration: none;
+	color:inherit;
+	border-bottom: 1px solid;
+	padding-bottom: 2px;
+}
+p{
+    font-family: "georgia", serif;
+    display: block;    
+}
+footer {
+	text-align: center;
+	background-color: #FF957E;
+	border: 1px black solid;
+    padding: 20px;
+    clear: both;
+}
