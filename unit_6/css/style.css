@@ -1,0 +1,163 @@
+@import url("'https://fonts.googleapis.com/css?family=Roboto");
+* { margin: 0;  box-sizing: border-box;}
+
+body {	
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+header {
+		color: white;
+		background-color: #6DCFCC;
+		padding-bottom: 20px;
+		width:calc(100% - 300px);
+		float: right;
+}
+.sidebar {
+	width:300px; 
+	background-color: #007F7C;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    overflow: auto;	
+}
+.sidebar  img{
+	padding-right: 20px;
+}
+
+.navlinks{
+	color: #6DCFCC;
+	letter-spacing: 1px;
+	padding: 1.5em 0;
+	border: none;
+	display: block;
+	margin: 0;
+}
+
+main { 
+	width: calc(100% - 300px);
+    padding: 20px;
+    float: right;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+section {
+	width: 97%;
+	/*height: calc;*/
+	margin: 0 auto 2em;
+	box-shadow: 
+	1px 1px 3px rgba(0,0,0,.25),3px 3px 5px rgba(0,0,0,.15);
+	background: #fff;
+	padding: 1em 3em 2em 3em;
+}
+.headshot {
+	border-radius: 50%;
+}
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+	border: 1px black solid;
+	background-color: white;
+	height: auto;
+	float: left;
+	padding: 10px 10px 30px 20px;
+	width: 45%;
+}
+#right {
+	border: 1px black solid;
+	background-color: white;
+	float: right;
+	height: auto;
+	width: 53%;
+	padding: 10px 10px 50px 20px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.eventphotos {
+	border-radius: 50%;
+	width: 18%;
+
+}
+.colleaguesphotos {
+	border-radius: 50%;
+	width: 10%;
+}
+.h3_icon {
+	padding-right: 0.5em;
+	width: 5%;
+}
+
+.h4_icon {
+	padding-right: 0.3em;
+	width: 33px;
+	color: black;
+}
+
+h2, h3, h4 {
+	font-weight: normal;
+	color: #007F7C;	
+}
+h1{
+	font-size: 4em;
+	font-weight: normal;
+	color: white;
+	padding-left: 0.5em;
+	vertical-align: center;
+}
+h1 img {
+	padding-top: 25px;
+	padding-right: 85px;
+
+}
+h2{
+	font-size: 2em;
+	text-align: center;
+	padding: 1em 1em;
+	}
+h3{
+	font-size: 1.5em;
+	padding-bottom: 0.53em	
+}
+h4 {
+	font-size: 1.2em;
+	padding-top: 1em;
+	padding-bottom: 0.53em;		
+}
+a{
+	text-decoration: none;
+	color:inherit;
+	border-bottom: 1px solid;
+	padding-bottom: 2px;
+}
+p{
+    font-family: "georgia", serif;
+    display: block;    
+}
+footer {
+	text-align: center;
+	border: 1px black solid;
+    padding: 20px;
+    clear: both;
+}
