@@ -1,0 +1,281 @@
+@import url("'https://fonts.googleapis.com/css?family=Roboto");
+* { margin: 0;  box-sizing: border-box;}
+
+body {	
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+header {
+		color: white;
+		background-color: #56A3A1;
+		text-align: left;
+}
+header p {
+	margin-left: 2em;
+	display: inline-block;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	text-decoration: none;
+}
+
+header a {
+ margin-left: 1.5em;
+}
+
+#nav {
+	background-color: #007F7C;
+	padding-top: 1em;
+	text-align: left;
+
+
+}
+nav a {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	color: white;
+	padding-left: 5.2em;
+}
+
+
+
+.nav_icon {
+	height: 2em;
+	padding-right: 0.7em;
+}
+
+main { 
+    padding: 90px;
+    background: #efefef;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+section {
+	width: 98%;
+	margin: 0 auto 2em;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.25),3px 3px 5px rgba(0,0,0,.15);
+	background: #fff;
+	padding: 1em 3em 2em 3em;
+}
+
+
+.dropbtn {
+  background-color: white;
+  border: 2px solid #007F7C;
+  min-width: 160px;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #007F7C;}
+
+
+
+.headshot {
+	margin-bottom: 1.5em;
+	border-radius: 50%;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.25),3px 3px 5px rgba(0,0,0,.15);
+}
+
+#column {
+	background-color: white;
+	height: auto;
+	float: left;
+	padding: 10px 10px 30px 20px;
+	width: 45%;
+	margin: 2%;
+	
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.eventphotos {
+	border-radius: 50%;
+	margin-top: 20px;
+	margin-right: 20px;
+	float: left;
+	box-shadow: 
+	1px 1px 3px rgba(0,0,0,.25),3px 3px 5px rgba(0,0,0,.15);
+	width: 19%;
+
+}
+.colleaguesphotos {
+	border-radius: 50%;
+	margin-top: 20px;
+	margin-right: 20px;
+	box-shadow: 
+	1px 1px 3px rgba(0,0,0,.25),3px 3px 5px rgba(0,0,0,.15);
+	background: #fff;
+	width: 14%;
+}
+.h3_icon {
+	padding-right: 0.3em;
+	height: 1.5em;
+
+}
+
+.h4_icon {
+	padding-right: 0.3em;
+	height: 1.3em;
+	
+}
+.chart {
+	margin-top: 1em;
+	width:100%;
+}
+#history h4 {
+	margin-left: 1.5em;
+	margin-top: 1em;
+}
+
+.paricon {
+	padding-right: 0.4em;
+ 	height: 1.4em;
+}
+.calendar {
+	padding-top: 1em;
+	width: 90%;
+}
+h2, h3, h4, h5 {
+	font-weight: normal;
+	color: #007F7C;	
+}
+h1{
+	font-size: 4em;
+	font-weight: normal;
+	color: white;
+	text-align: left;
+}
+h1 img {
+	padding-top: 0.5em;
+	padding-left: 1em;
+
+}
+h2{
+	font-size: 2em;
+	text-align: center;
+	padding: 1em 1em;
+	}
+h3{
+	font-size: 1.9em;
+	margin-bottom: 0.5em;
+
+}
+h4{
+	font-size: 1.3em;
+			
+}
+
+h5{
+	font-size: 1em;
+	margin-top: 0.53em
+	line-height: 2em;	
+}
+a{
+	text-decoration: none;
+	color:inherit;
+	border-bottom: 1px solid;
+	padding-bottom: 2px;
+}
+#profile h4 {
+	margin-top: 1.5em;
+	margin-bottom: 0.5em;
+}
+#profile p {
+	margin-bottom: 0.7em;
+}
+#activity p {
+	margin-top: 1em;
+}
+#upcoming h5 {
+	line-height: 2em;
+}
+#upcoming p {
+	margin-top: 0.7em;
+	margin-bottom: 0.4em;
+}
+p{
+    font-family: "georgia", serif;   
+}
+footer {
+	text-align: center;
+    padding: 20px;
+    clear: both;
+    background: #efefef;
+}
+
+@media only screen and (max-width:1130px) and (min-width:685px){
+	#column {
+	width: 90%;
+	margin: auto;
+	}
+nav a {
+	font-size: 1em;
+	color: white;
+	padding-left: 4em;
+}
+header p {
+    margin-left: 3em;
+}
+
+.nav_icon {
+	height: 1.3em;
+}
+h1{
+	font-size: 3.5em;
+	color: white;
+}
+@media only screen and (max-width:684px) and (min-width:320px){
+	#column {
+	width:90%;
+	float:left;
+	}
+section {
+	width:45%;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.25),3px 3px 5px rgba(0,0,0,.15);
+	background: #fff;
+/*	padding: 1em 3em 2em 3em;*/
+}
+}
