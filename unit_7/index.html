@@ -7,22 +7,38 @@
 <body>
 	<header>
 		<h1><img src="images/icon_0volunttering.png">Volunteer Dashboard </h1>
-				<p>Welcome Back, Anna SMITH <a href="#">Sign Out</a></p>
+				<p>Welcome Back, Anna SMITH</p> 
+				<a href="#">Sign Out</a>
 	</header>
-			<div class="sidebar">
-				<p><img src="images/navicon_search.png" class="nav_icon">Search</p> 
-				<nav>
-  					<a class="navlinks" href="#"><img src="images/navicon_overview.png" class="nav_icon"></i>Overview</a>
-  					<a class="navlinks" href="#"><img src="images/navicon_profile.png"  class="nav_icon"></i>Profile</a>
-  					<a class="navlinks" href="#"><img src="images/navicon_activity.png" class="nav_icon"></i>Activity</a>
-  					<a class="navlinks" href="#"><img src="images/navicon_filters.png"  class="nav_icon"></i>Volunteer Search Filters</a>
-  					<a class="navlinks" href="#"><img src="images/navicon_calendar.png" class="nav_icon"></i>Calendar</a>
-  					<a class="navlinks" href="#"><img src="images/navicon_category.png" class="nav_icon"></i>Volunteer Category</a>
-  					<a class="navlinks" href="#"><img src="images/navicon_photo.png"    class="nav_icon"></i>Photo Gallery</a>
-  				</nav>	
-  			</div>
+		<div id="nav">
+  				
+					<nav>
+						<a href="#"><img src="images/navicon_overview.png" class="nav_icon">Overview</a>			
+						<a href="#"><img src="images/navicon_profile.png" class="nav_icon">Profile</a>	
+						<a href="#"><img src="images/navicon_activity.png" class="nav_icon">Activity</a>
+						<a href="#"><img src="images/navicon_photo.png" class="nav_icon">Photos</a>
+						<a href="#"><img src="images/navicon_search.png" class="nav_icon">Search</a>					
+					</nav>
 
+
+
+  		</div>	
 <main>
+	<section id="search" class="clearfix">
+ 		<h3><img src="images/icon_1searchfilters.png" class="h3_icon">Find Volunteer Opportunities</h3> 
+ 			<div class="dropdown">
+ 				<button class="dropbtn">Category</button>
+ 				<div class="dropdown-content">
+    				<a href="#">Children & Youth</a>
+    				<a href="#">Education</a>
+    				<a href="#">Community</a>
+    				<a href="#">Others</a>
+  				</div>
+
+				<button class="dropbtn">Date/Time</button>
+ 				<button class="dropbtn">Search</button>
+	</section>
+
 	<h2>Overview</h2>
 
 		<section id="profile" class="clearfix">
@@ -62,8 +78,8 @@
 			    			<img src="images/volunteering2.png" class="eventphotos">
 			    			<img src="images/volunteering3.png" class="eventphotos">
 			    			<img src="images/volunteering4.png" class="eventphotos">
-					</div>
-					<div id="column">
+				</div>
+				<div id="column">
 						<h4><img src="images/icon_rsvp.png" class="h4_icon">Events RSVPD</h4> 
 						<h5><img src="images/icon_children.png" class="paricon" ><a href="#">Youth Soccer Program w/ America SCORES</a></h5>
 						<p>Saturday, March 19  2019 12 pm - 3 pm </p>
@@ -75,14 +91,7 @@
 						<p>Plus,<a href="#">three more of your colleagues have RSVP for this event.</a></p>
 					</div>	
 				</section>	
-				<section id="history">
-					<h3><img src="images/icon_history.png" class="h3_icon">History</h3>
-			  		<h4>Contributions by Month</h4>
-						<img src="images/contribution_bymonth.png" class="chart">
-			  		<h4>Contributions by Volunteer Categories</h4>
-		       			<img src="images/piechart.png" class="chart">
-				</section>	
-		
+				
 		<section id="upcoming" class="clearfix">
 
 			<h3><img src="images/icon_5calendar.png" class="h3_icon">Upcoming Volunteer Calendar</h3> 
@@ -103,7 +112,16 @@
 					<p>Thursday, March 31  2019  5 p.m. - 7 p.m.</p>
 
 				</div>
+		</section>
+
+		<section id="history">
+					<h3><img src="images/icon_history.png" class="h3_icon">History</h3>
+			  		<h4>Contributions by Month</h4>
+						<img src="images/contribution_bymonth.png" class="chart">
+			  		<h4>Contributions by Volunteer Categories</h4>
+		       			<img src="images/piechart.png" class="chart">
 		</section>	
+			
 </main>
 		<footer>
 			<p>If you have any questions, contact: <a href="mailto:florence.jkim@gmail.com"> florence.jkim@gmail.com </a></p>
