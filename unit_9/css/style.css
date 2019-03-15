@@ -24,7 +24,7 @@ header a {
  margin-left: 1.5em;
 }
 
-.nav {
+#nav {
 	background-color: #007F7C;
 	padding-top: 0.5em;
 	text-align: left;
@@ -51,10 +51,6 @@ a {
 .nav_icon {
 	height: 2em;
 	padding-right: 1em;
-}
-.filter_icon {
-	height: 1.5em;
-	padding-right: 2em;
 }
 
 main { 
