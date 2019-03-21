@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Volunteer Dashboard 9</title>
+	<title>Volunteer Net</title>
   	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 	<header>
-		<h1><img src="images/icon_0volunttering.png">Volunteer Dashboard </h1>
+		<h1><img src="images/icon_0volunttering.png">Volunteer Net </h1>
 			<p>Welcome Back, Anna SMITH</p> 
 			<a href="#">Sign Out</a>
 	</header>
@@ -16,38 +16,53 @@
 					<a href="#"><img src="images/navicon_activity.png" class="nav_icon">Activity</a>
 					<a href="#"><img src="images/navicon_photo.png" class="nav_icon">Photos</a>
 					<a href="#"><img src="images/navicon_search.png" class="nav_icon">Search</a>		
-				</nav>	
+				</nav>
 <main>
 	<section id="search" class="clearfix">
  		<h3><img src="images/icon_1searchfilters.png" class="h3_icon">Find Volunteer Opportunities</h3> 
- 			<div class="dropdown">
+ 			<h5> Category</h5>	
+				<div>
+				<form action="/action_page.php">
+  					<select name="Category">
+    				<option value="Children & Youth">Children & Youth</option>
+    				<option value="Education">Education</option>
+   					<option value="Community">Community</option>
+    				<option value="Others">Others</option>
+  					</select>
+  					<br><br>
+  					<input type="Submit">
+				</form>
+			</div>
+			<h5>Day</h5>	
+				<form action="/action_page.php">
+  					<select name="Day">
+    				<option value="Weekday Evening">Weekday Evening</option>
+    				<option value="Weekday Afternoon">Weekday Afternoon</option>
+   					<option value="Weekend">Weekend</option>
+  					</select>
+  					<br><br>
+  				<input type="Submit">
+				</form>
+			
+			<h5>Duration</h5>	
+			<form action="/action_page.php">
+  				<select name="Duration">
+    			<option value="2-3 hours">2-3 hours</option>
+    			<option value="Half Day">Half Day</option>
+   				<option value="Day">Day</option>
+  				</select>
+  				<br><br>
+  			<input type="Submit">
+			</form>
  			<div>
- 			<button class="dropbtn">Category</button>
- 			<div class="dropdown-content">
-    		<a href="#">Children & Youth</a>
-    		<a href="#">Education</a>
-    		<a href="#">Community</a>
-    		<a href="#">Others</a>
-  			</div>
-  			</div>
-			<div>
-			<button class="dropbtn">Day/Time</button>
-			<div class="dropdown-content">
-    		<a href="#">Weekday Evening</a>
-    		<a href="#">Weekday Afternoon</a>
-    		<a href="#">Weekend</a>
-  			</div>
-  			</div>	
- 			
- 			<div>
- 			<button class="dropbtn"><img src="images/icon_volunteersearch.png"class="filter_icon"><input type="text" placeholder="Search.."></button>
+ 			<form class="dropbtn"><input type="text" placeholder="Search.."><button><img src="images/icon_volunteersearch.png"class="filter_icon"></button></form>
  			</div>
- 			</div>
+
 	</section>
 	<h2>Overview</h2>
 		<section id="profile" class="clearfix">
  			<h3><img src="images/icon_2profile.png" class="h3_icon">Profile</h3> 
-				<div id="column">
+				<div class="column">
  					<img src="images/anna_profile.png" class="headshot">
 					<p>Name: Anna Smith</p>
 					<p>Job Title: Business Partner</p>
@@ -56,7 +71,7 @@
 					<p>Phone: (212) 456-7891<p>
 					<p>Email: anna.smith@gmail.com<p>
 				</div>
-   			<div id="column">
+   			<div class="column">
 					<h4><img src="images/icon_goal.png" class="h4_icon">Goal</h4>
  			   		<p>2019: 39 hours </p>
  			   		<h4><img src="images/icon_interests.png" class="h4_icon">Interests</h4>
@@ -65,9 +80,10 @@
  			   		<p>+ Coding + Cooking+ Gardening</p>
 				</div>
 		</section>	
+
 		<section id="activity" class="clearfix">		  	
 			<h3><img src="images/icon_3activity.png" class="h3_icon">Activity</h3> 
-				<div id="column">
+				<div class="column">
 					<h4><img src="images/icon_7organizations.png" class="h4_icon">Most Recent Contribution</h4>
     		   			<h5><img src="images/icon_others.png" class="paricon"><a href="#">LIC Volunteer Gardening Day w/ Hunters Point Parks Conservancy</a></h5>
     		   			<p> We enjoyed the beautiful LIC waterfront and sunshine while you help keep our parks beautiful by planting, weeding and doing other gardening tasks.</p>
@@ -78,7 +94,7 @@
 			    			<img src="images/volunteering3.png" class="eventphotos">
 			    			<img src="images/volunteering4.png" class="eventphotos">
 				</div>
-				<div id="column">
+				<div class="column">
 						<h4><img src="images/icon_rsvp.png" class="h4_icon">Events RSVPD</h4> 
 						<h5><img src="images/icon_children.png" class="paricon" ><a href="#">Youth Soccer Program w/ America SCORES</a></h5>
 						<p>Saturday, March 19  2019 12 pm - 3 pm </p>
@@ -92,20 +108,21 @@
 				</section>				
 		<section id="upcoming" class="clearfix">
 			<h3><img src="images/icon_5calendar.png" class="h3_icon">Upcoming Volunteer Calendar</h3> 
-					<div id="column">
-					<img src="images/calendar.png" class="calendar">
-				</div>		
-				<div id="column">
-					<h5><img src="images/icon_community.png" class="paricon"> <a href="#">Meal Program w/ Ronald McDonald House</a></h5>
-					<p>Prepare a home-cooked meal for the RMH-LI families by bringing a group of  10 – 12 individuals.  
-					<p>Thursday, March 19 2019 10 a.m. - 2 p.m. </p>				
-					<h5><img src="images/icon_children.png" class="paricon"><a href="#">RSVPD: Youth Soccer Program w/ America SCORES</a></h5>
-					<p>America SCORES seeks passionate volunteers to work with elementary students during our soccer program.
-					<p>Saturday, March 24  2019 12 p.m. - 3 p.m. </p>
-					<h5><img src="images/icon_education.png" class="paricon"><a href="#">Teen Center (After-School Program) w/ Manny Cantor Center</a></h5>
-					<p> Help make our teens feel welcome and safe as soon as they walk into MCC each day!  The volunteer will work at the front desk in the main lobby.</p>
-					<p>Thursday, March 31  2019  5 p.m. - 7 p.m.</p>
-				</div>
+					<div class="column">
+						<img src="images/calendar.png" class="calendar">
+					</div>		
+					
+					<div class="column">
+						<h5><img src="images/icon_community.png" class="paricon"> <a href="#">Meal Program w/ Ronald McDonald House</a></h5>
+						<p>Prepare a home-cooked meal for the RMH-LI families by bringing a group of  10 – 12 individuals.  
+						<p>Thursday, March 19 2019 10 a.m. - 2 p.m. </p>				
+						<h5><img src="images/icon_children.png" class="paricon"><a href="#">RSVPD: Youth Soccer Program w/ America SCORES</a></h5>
+						<p>America SCORES seeks passionate volunteers to work with elementary students during our soccer program.
+						<p>Saturday, March 24  2019 12 p.m. - 3 p.m. </p>
+						<h5><img src="images/icon_education.png" class="paricon"><a href="#">Teen Center (After-School Program) w/ Manny Cantor Center</a></h5>
+						<p> Help make our teens feel welcome and safe as soon as they walk into MCC each day!  The volunteer will work at the front desk in the main lobby.</p>
+						<p>Thursday, March 31  2019  5 p.m. - 7 p.m.</p>
+					</div>
 		</section>
 		<section id="history">
 					<h3><img src="images/icon_history.png" class="h3_icon">History</h3>
@@ -118,7 +135,7 @@
 </main>
 		<footer>
 			<p>If you have any questions, contact: <a href="mailto:florence.jkim@gmail.com"> florence.jkim@gmail.com </a></p>
-			<p>Copyright: 2019 Volunteer Dashboard</p>
+			<p>Copyright: 2019 Volunteer Net Dashboard</p>
 			<p><a href="#">Go to top</a></p>
 		</footer>
 </body>
